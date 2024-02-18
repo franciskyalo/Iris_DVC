@@ -1,22 +1,21 @@
 schema: '2.0'
 stages:
   train_model:
-    cmd: set MLFLOW_TRACKING_USERNAME=franciskyalo && set MLFLOW_TRACKING_PASSWORD=1a78b581682c72dfc2cea4f670528d642b94cf2b
-      && python model/train.py
+    cmd: python model/train.py
     deps:
     - path: model/train.py
       hash: md5
-      md5: f1c4e2ee34afed173b7cec6954779434
-      size: 1232
+      md5: cb614dc55bc12fc8ee63ddb9d910d3ef
+      size: 1315
     outs:
     - path: model/model.pkl
       hash: md5
-      md5: 2cc6c03b030a756192e4093031e67658
-      size: 184417
+      md5: d0539fe7f5bec482b2e442d3ec7be9a9
+      size: 182657
   deployfastapi_model:
     cmd: python app/main.py
     deps:
     - path: model/model.pkl
       hash: md5
-      md5: 2cc6c03b030a756192e4093031e67658
-      size: 184417
+      md5: d0539fe7f5bec482b2e442d3ec7be9a9
+      size: 182657

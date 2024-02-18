@@ -1,6 +1,6 @@
 stages:
   train_model:
-    cmd: set MLFLOW_TRACKING_USERNAME=franciskyalo && set MLFLOW_TRACKING_PASSWORD=1a78b581682c72dfc2cea4f670528d642b94cf2b && python model/train.py
+    cmd: python model/train.py
     deps:
       - model/train.py
     outs:

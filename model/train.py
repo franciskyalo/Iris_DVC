@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import joblib
+import dagshub
 
 def train_and_log():
     # Load iris dataset
@@ -21,6 +22,7 @@ def train_and_log():
     accuracy = accuracy_score(y_test, y_pred)
 
     #mlflow.set_tracking_uri("https://dagshub.com/franciskyalo/Iris_DVC.mlflow")
+    dagshub.init(repo_owner="franciskyalo", repo_name="Iris_DVC")
 
     # Log the model and metrics using MLflow
     with mlflow.start_run():
