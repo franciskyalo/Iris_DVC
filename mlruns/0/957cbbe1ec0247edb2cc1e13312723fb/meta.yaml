@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Documents/Iris_DVC/mlruns/0/957cbbe1ec0247edb2cc1e13312723fb/artifacts
+end_time: 1708270452486
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 957cbbe1ec0247edb2cc1e13312723fb
+run_name: melodic-gnu-950
+run_uuid: 957cbbe1ec0247edb2cc1e13312723fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708270446487
+status: 3
+tags: []
+user_id: 'franciskyalo '

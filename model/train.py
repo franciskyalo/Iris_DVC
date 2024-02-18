@@ -20,6 +20,8 @@ def train_and_log():
     y_pred = model.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
 
+    #mlflow.set_tracking_uri("https://dagshub.com/franciskyalo/Iris_DVC.mlflow")
+
     # Log the model and metrics using MLflow
     with mlflow.start_run():
         mlflow.log_param("n_estimators", 100)

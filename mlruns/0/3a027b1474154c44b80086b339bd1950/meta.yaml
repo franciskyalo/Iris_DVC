@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Documents/Iris_DVC/mlruns/0/3a027b1474154c44b80086b339bd1950/artifacts
+end_time: 1708270171211
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3a027b1474154c44b80086b339bd1950
+run_name: awesome-slug-462
+run_uuid: 3a027b1474154c44b80086b339bd1950
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708270159660
+status: 3
+tags: []
+user_id: 'franciskyalo '
