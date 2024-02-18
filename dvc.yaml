@@ -1,0 +1,12 @@
+stages:
+  train_model:
+    cmd: python model/train.py
+    deps:
+      - model/train.py
+    outs:
+      - model/model.pkl
+
+  deployfastapi_model:
+    cmd: python app/main.py
+    deps:
+      - model/model.pkl

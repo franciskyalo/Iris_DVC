@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Documents/Iris_DVC/mlruns/0/aeceff8212bf4da1a6f0e47753636847/artifacts
+end_time: 1708238171900
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aeceff8212bf4da1a6f0e47753636847
+run_name: trusting-ox-955
+run_uuid: aeceff8212bf4da1a6f0e47753636847
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708238160082
+status: 3
+tags: []
+user_id: user
